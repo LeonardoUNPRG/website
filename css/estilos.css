@@ -1,0 +1,36 @@
+html {
+  background-color: #2196f3;
+  min-height: 100%;
+  font-family: "helvetica neue";
+  background: linear-gradient(#a5a58d, #212529);
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.contenedor {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#cabecero {
+  background-color: #001219;
+  text-align: center;
+}
+
+.elemento {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+li{
+  padding: 10px;
+}
+  

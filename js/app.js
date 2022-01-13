@@ -1,5 +1,4 @@
 let url=document.getElementById('imagen');
-let horaM=document.getElementById('tiempo');
 function mostrar(valor){
     switch(valor){
         case 1: url.src = "imagenes/jose.jfif";
@@ -21,22 +20,8 @@ function mostrar(valor){
             break;
     }
 }
+
 function quitar(){
-    url.src ="imagenes/UNPRG.png";
+    url.style.visibility = 'hidden';
 }
-setInterval(function(){
-    tiempo= new Date();
-    hors= tiempo.getHours();
-    minutos =tiempo.getMinutes();
-    segundos= tiempo.getSeconds();
-    if (segundos<10) {
-        segundos="0"+segundos;
-    }
-    if (minutos<10) {
-        minutos="0"+minutos;
-    }
-    if (hors<10) {
-        hors="0"+hors;
-    }
-    horaM.innerHTML= hors+":"+minutos+":"+segundos;
-},1000);
+

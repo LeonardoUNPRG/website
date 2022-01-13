@@ -7,25 +7,34 @@
     <title>Projected 2022</title>
     <link href="/css/style.css" rel="stylesheet"/>
 </head>
-<body>
+<body >
     <div id="cabecero">
-        <h1>Integrantes</h1>
+        <H1>INTEGRANTES</H1>
     </div>
-    <div class="contenedor">
+    
+    
+    
+    
+    <div class="contenedor" >
         <div class="caja lista elemento">
             <ul>
-                <li onclick="mostrar(1)">Ballena Chancafe José Enrique</li>
-                <li onclick="mostrar(2)">Fernandez Valle Adam Smith</li>
-                <li onclick="mostrar(3)">Guevara Cajusol Miguel Angel</li>
-                <li onclick="mostrar(4)">Rivadeneira Romero Leonardo Jefferson</li>
-                <li onclick="mostrar(5)">Rodriguez Custodio Jhonatan</li>
+                <li ONMOUSEOVER ="mostrar(1)" ONMOUSEOUT="quitar()">Ballena Chancafe José Enrique</li>
+                <li ONMOUSEOVER ="mostrar(2)" ONMOUSEOUT="quitar()">Fernandez Valle Adam Smith</li>
+                <li ONMOUSEOVER ="mostrar(3)" ONMOUSEOUT="quitar()">Guevara Cajusol Miguel Angel</li>
+                <li ONMOUSEOVER ="mostrar(4)" ONMOUSEOUT="quitar()">Rivadeneira Romero Leonardo </li>
+                <li ONMOUSEOVER ="mostrar(5)" ONMOUSEOUT="quitar()">Rodriguez Custodio Jhonatan</li>
             </ul>
         </div>
-
+        <div class ="reloj">
+            <code><span id="tiempo">00:00:00</span></code>
+        </div>
+    
         <div class="caja">
-            <img id="imagen" src="imagenes/ionata.jfif" width="200px"/>
+            <img id="imagen" src="imagenes/UNPRG.png" width="200px" />
         </div>
     </div>
+    
+    
     <script src="js/app.js"></script>
 </body>
 </html>

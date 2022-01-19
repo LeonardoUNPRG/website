@@ -1,0 +1,94 @@
+html {
+    background-image: url(https://get.wallhere.com/photo/laptop-gadgets-1226001.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    font-family: "helvetica neue";
+    /*background: linear-gradient(#a5a58d, #212529);*/
+    
+}
+
+#cabecero{
+    background-color: #a7dfff;
+    text-align: center;
+    margin: 35px auto;
+    max-width: 300px;
+    max-height: 120px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0px;
+    border-radius: 3px;
+}
+
+H1{
+    padding: 10px;
+    margin:13px;
+    color: #001219;
+    text-shadow: 4px 4px 4px #6b705c;/*revisar*/
+    font-size: 36px;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30;
+    align-items: center;
+}
+
+.caja{
+    max-width: 490px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+.lista{
+    background: #a7dfff;
+    border-radius: 5px;
+    border: 10px solid #353535;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    padding: 20px;
+    margin: 10 px;
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+}
+
+li:hover{
+    background-color: #1684b2;
+    color: rgb(255, 255, 255);
+    padding:20px;
+    margin: 15 px;
+    font-size: 24px;
+}
+
+li:active{
+    background-color: #b2168b;
+    color: rgb(255, 255, 255);
+}
+
+.elemento {
+    min-height: 40px;
+}
+.reloj{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin: 5px,5px;
+    padding-right: 80px;
+    border-color: #2196f3;
+    font-size: 55px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+
